@@ -1,0 +1,119 @@
+#Testing ggplot with built-in dataset
+library(ggplot2)
+data(mtcars)
+ggplot(mtcars, aes(x = mpg, y = cyl)) + geom_point()
+
+# Rest of your code
+library(tidyverse)
+library(dplyr)
+library(anytime)
+library(nanotime)
+library(dygraphs)
+
+path <- '/cloud/project/dataToBeCleanedAfter/' 
+setwd(path)
+
+classes <- c("tashahhud", "takbir", "ruku", "sajdah", "aiyana") 
+
+for (class in classes) {
+  next_class_directory <- paste(path, class, sep = '/')
+  
+  if (!dir.exists(paste0(path, '/saved/'))) {
+    dir.create(paste0(path, '/saved/'))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class))) {
+    dir.create(paste0(path, '/saved/', class))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class, '/photos'))) {
+    dir.create(paste0(path, '/saved/', class, '/photos'))
+  }
+  
+  excel_files <- dir(paste0(next_class_directory))
+  index_to_save <- 1
+  
+  for (excel in excel_files) {
+    path_to_csv <- paste0(next_class_directory, '/', excel)
+    data <- read.csv(path_to_csv, header = TRUE, sep = ',')
+    print(unique(data$column_name))
+    
+    data <- na.omit(data)
+    print(paste("Processing file:", excel, ", number of rows:", nrow(data)))
+    
+    my_options <- options(digits.secs = 3)
+    
+    first_time <- data$loggingTime.txt.[1]
+    
+    calculate_time_start <- function(time_string) {
+      time <- strptime(time_string, "%Y-%m-%d %H:%M:%OS")
+      return(as.numeric(difftime(time, first_time, units = "secs")))
+    }
+    
+    data$loggingTime.txt. <- sapply(data$loggingTime.txt., calculate_time_start)
+    
+    limit_val <- switch(class, 
+                        "tashahhud" =  0.05, 
+                        "takbir" = 0.1,    
+                        "ruku" =  0.2,     
+                        "sajdah" = 0.3,  
+                        "aiyana" = 0.1)   
+    
+    
+    limit_axis <- switch(class, 
+                         "tashahhud" = 'motionUserAccelerationX.G.', 
+                         "takbir" = 'motionUserAccelerationY.G.', 
+                         "ruku" = 'motionUserAccelerationZ.G.', 
+                         "sajdah" = 'motionUserAccelerationZ.G.', 
+                         "aiyana" = 'motionUserAccelerationZ.G.')
+    
+    
+    temporary_df <- data.frame()
+    
+    for (i in 1:nrow(data)) {
+      print(paste("Row ", i, ": ", data[i, limit_axis]))
+      if (i == 1 || (!is.na(data[i, limit_axis]) && abs(data[i, limit_axis]) >= limit_val)) {
+        temporary_df <- rbind(temporary_df, data[i,])
+      } else {
+        print(paste("Filtered out row ", i))
+        write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+        
+        if(nrow(temporary_df) > 0){
+          tryCatch({
+            my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+              geom_line() +
+              ggtitle(paste(class, " - ", index_to_save))
+            
+            ggsave(filename = paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot, width = 7, height = 7)
+          }, error = function(e) {
+            print(paste("Error during plotting:", e))
+          })
+        }
+        
+     
+        test_plot <- ggplot(mtcars, aes(mpg, disp)) + geom_point()
+        ggsave(filename = paste0(path, "/test_", excel, i,   ".png"), plot = test_plot)
+        
+        
+        index_to_save <- index_to_save + 1
+        temporary_df <- data.frame()
+      }
+    }
+    print(head(temporary_df))
+    if (nrow(temporary_df) > 0) {
+      write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+      
+      tryCatch({
+        my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+          geom_line() +
+          ggtitle(paste(class, " - ", index_to_save))
+        
+        ggsave(filename = paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot, width = 7, height = 7)
+      }, error = function(e) {
+        print(paste("Error during plotting:", e))
+      })
+    } else {
+      print("No data to plot")
+    }
+  }
+}

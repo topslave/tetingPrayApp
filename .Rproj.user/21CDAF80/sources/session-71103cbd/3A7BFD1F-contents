@@ -1,0 +1,37 @@
+library(tidyverse)
+
+# Function to read, preprocess the data, and encode the labels
+read_data <- function(file_path, label) {
+  data <- read_delim(file_path, delim = "|")
+  
+  # Add a column for the label, but this time as an integer
+  # Define your own mapping from position names to integers
+  label_mapping <- c("takbir" = 0, "qiyam" = 1, "ruku" = 2, "sujud" = 3, "julus" = 4, "salam" = 5)
+  data <- data %>% mutate(Position = label_mapping[label])  # Add a column for the label
+  
+  return(data)
+}
+
+# Define the path to the data folders
+data_path <- "/cloud/project/dataset"  # Replace this with your actual data path
+
+# Define the positions
+positions <- c("takbir", "qiyam", "ruku", "sujud", "julus", "salam")
+
+# Initialize an empty data frame for storing all data
+all_data <- tibble()
+
+# Loop over each position
+for (position in positions) {
+  # List all the CSV files in the folder for the current position
+  csv_files <- list.files(paste0(data_path, "/", position), full.names = TRUE)
+  
+  # Read and preprocess all the data for the current position
+  position_data <- map_dfr(csv_files, read_data, label = position)
+  
+  # Append the data for the current position to the all_data data frame
+  all_data <- bind_rows(all_data, position_data)
+}
+
+# Save the combined data as a CSV file
+write_csv(all_data, "all_data.csv")

@@ -1,0 +1,103 @@
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(anytime)
+library(nanotime)
+library(dygraphs)
+
+path <- '/cloud/project/dataToBeCleanedAfter/' 
+setwd(path)
+
+classes <- c("tashahhud", "takbir", "ruku", "sajdah", "aiyana") 
+
+for (class in classes) {
+  next_class_directory <- paste(path, class, sep = '/')
+  
+  if (!dir.exists(paste0(path, '/saved/'))) {
+    dir.create(paste0(path, '/saved/'))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class))) {
+    dir.create(paste0(path, '/saved/', class))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class, '/photos'))) {
+    dir.create(paste0(path, '/saved/', class, '/photos'))
+  }
+  
+  excel_files <- dir(paste0(next_class_directory))
+  index_to_save <- 1
+  
+  for (excel in excel_files) {
+    path_to_csv <- paste0(next_class_directory, '/', excel)
+    data <- read.csv(path_to_csv, header = TRUE, sep = ',')
+    
+    data <- na.omit(data)
+    print(paste("Processing file:", excel, ", number of rows:", nrow(data)))
+    
+    my_options <- options(digits.secs = 3)
+    
+    first_time <- data$loggingTime.txt.[1]
+    
+    calculate_time_start <- function(time_string) {
+      time <- strptime(time_string, "%Y-%m-%d %H:%M:%OS")
+      return(as.numeric(difftime(time, first_time, units = "secs")))
+    }
+    
+    data$loggingTime.txt. <- sapply(data$loggingTime.txt., calculate_time_start)
+    
+    limit_val <- switch(class, 
+                        "tashahhud" =  0.02, 
+                        "takbir" = -0.02,    
+                        "ruku" =  -0.02,     
+                        "sajdah" = 0.04,  
+                        "aiyana" = -0.01)   
+    
+    limit_axis <- switch(class, 
+                         "tashahhud" = 'motionUserAccelerationX.G.', 
+                         "takbir" = 'motionUserAccelerationY.G.', 
+                         "ruku" = 'motionUserAccelerationZ.G.', 
+                         "sajdah" = 'motionUserAccelerationZ.G.', 
+                         "aiyana" = 'motionUserAccelerationZ.G.')
+    
+    temporary_df <- data.frame()
+    
+    for (i in 1:nrow(data)) {
+      if (i == 1 || (!is.na(data[i, limit_axis]) && data[i, limit_axis] >= limit_val)) {
+        temporary_df <- rbind(temporary_df, data[i,])
+      } else {
+        print(paste("Filtered out row ", i))
+        write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+        
+        if(nrow(temporary_df) > 0){
+          tryCatch({
+            my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+              geom_line() +
+              xlim(min(temporary_df$loggingTime.txt.), max(temporary_df$loggingTime.txt.)) +
+              ylim(min(temporary_df[[limit_axis]]), max(temporary_df[[limit_axis]])) +
+              labs(x = "Time (s)", y = "Acceleration (g)", title = paste(class, index_to_save))
+            ggsave(paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot)
+          }, error = function(e) {print(e)})
+        }
+        
+        index_to_save <- index_to_save + 1
+        temporary_df <- data.frame()
+      }
+    }
+    
+    write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+    
+    if(nrow(temporary_df) > 0){
+      tryCatch({
+        my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+          geom_line() +
+          xlim(min(temporary_df$loggingTime.txt.), max(temporary_df$loggingTime.txt.)) +
+          ylim(min(temporary_df[[limit_axis]]), max(temporary_df[[limit_axis]])) +
+          labs(x = "Time (s)", y = "Acceleration (g)", title = paste(class, index_to_save))
+        ggsave(paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot)
+      }, error = function(e) {print(e)})
+    }
+    
+    index_to_save <- index_to_save + 1
+  }
+}

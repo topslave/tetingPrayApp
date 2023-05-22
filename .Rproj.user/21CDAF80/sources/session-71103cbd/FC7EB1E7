@@ -1,0 +1,26 @@
+{
+    "id": "FC7EB1E7",
+    "path": "/cloud/project/prayPlotFinal.R",
+    "project_path": "prayPlotFinal.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1684778449871.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "47,33",
+        "scrollLine": "40"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1684778945,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1684778945475,
+    "read_only": false,
+    "read_only_alternatives": []
+}

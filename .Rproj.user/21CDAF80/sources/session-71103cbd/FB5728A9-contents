@@ -1,0 +1,46 @@
+library(tidyverse)
+
+# Function to read and preprocess the data
+read_data <- function(file_path, label) {
+  data <- read_delim(file_path, delim = "|")
+  data <- data %>% mutate(Position = label)  # Add a column for the label
+  return(data)
+}
+
+# Define the path to the data folders
+data_path <- "/cloud/project/dataset"  # Replace this with your actual data path
+
+# Define the positions
+positions <- c("takbir", "qiyam", "ruku", "sujud", "julus", "salam")
+
+# Initialize empty lists for storing training and test data
+train_data <- list()
+test_data <- list()
+
+# Define the proportion of data to be used for training
+train_proportion <- 0.8
+
+# Set a seed for reproducibility
+set.seed(123)
+
+# Loop over each position
+for (position in positions) {
+  # List all the CSV files in the folder for the current position
+  csv_files <- list.files(paste0(data_path, "/", position), full.names = TRUE)
+  
+  # Read and preprocess all the data for the current position
+  position_data <- map_dfr(csv_files, read_data, label = position)
+  
+  # Separate the data into training and test sets
+  train_indices <- sample(1:nrow(position_data), train_proportion * nrow(position_data))
+  train_data[[position]] <- position_data[train_indices, ]
+  test_data[[position]] <- position_data[-train_indices, ]
+}
+
+# Combine the training and test data from all positions into single data frames
+train_data <- bind_rows(train_data)
+test_data <- bind_rows(test_data)
+
+# Save the training and test sets as CSV files
+write_csv(train_data, "train_data.csv")
+write_csv(test_data, "test_data.csv")

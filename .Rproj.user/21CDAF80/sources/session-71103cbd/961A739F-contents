@@ -1,0 +1,63 @@
+# Install required libraries
+install.packages(c("dplyr", "tidyverse", "purrr", "readr"))
+
+# Load required libraries
+ 
+ 
+library(purrr)
+library(readr)
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(anytime)
+library(nanotime)
+library(dygraphs)
+
+# Define the column names to keep
+nuno_cols <- c('loggingTime(txt)', 'accelerometerTimestamp_sinceReboot(s)',
+               'accelerometerAccelerationX(G)', 'accelerometerAccelerationY(G)',
+               'accelerometerAccelerationZ(G)', 'motionTimestamp_sinceReboot(s)',
+               'motionYaw(rad)', 'motionRoll(rad)', 'motionPitch(rad)',
+               'motionRotationRateX(rad/s)', 'motionRotationRateY(rad/s)',
+               'motionRotationRateZ(rad/s)', 'motionUserAccelerationX(G)',
+               'motionUserAccelerationY(G)', 'motionUserAccelerationZ(G)',
+               'motionAttitudeReferenceFrame(txt)', 'motionQuaternionX(R)',
+               'motionQuaternionY(R)', 'motionQuaternionZ(R)', 'motionQuaternionW(R)',
+               'motionGravityX(G)', 'motionGravityY(G)', 'motionGravityZ(G)',
+               'motionMagneticFieldX(µT)', 'motionMagneticFieldY(µT)',
+               'motionMagneticFieldZ(µT)', 'motionHeading(°)',
+               'motionMagneticFieldCalibrationAccuracy(Z)', 'label')
+
+# Set working directory
+setwd("/cloud/project/dataToBeCleaned")
+
+# List all CSV files in the directory
+file_list <- list.files(pattern = "*.csv", recursive = TRUE)
+
+# Define output directory
+output_dir <- "/cloud/project/dataToBeCleanedAfter"
+
+# Loop over each file in the list
+for (file in file_list) {
+  # Read the CSV file with the correct delimiter
+  df <- read_delim(file, delim = "|")
+  
+  # Print column names
+  print(names(df))
+  
+  # Filter columns
+  df <- df %>%
+    select(all_of(nuno_cols[-length(nuno_cols)])) %>%
+    mutate(label = basename(dirname(file)))
+  
+  # Define output file path
+  output_file <- file.path(output_dir, file)
+  
+  # Ensure the directory exists
+  dir.create(dirname(output_file), showWarnings = FALSE, recursive = TRUE)
+  
+  # Write the cleaned dataframe to a new CSV file
+  write_csv(df, output_file)
+}
+
+print("Data cleaning and saving process is completed.")

@@ -1,0 +1,107 @@
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(anytime)
+library(nanotime)
+library(dygraphs)
+
+path <- '/cloud/project/CopyOfdataToBeCleanedAfterWorkSpace/' # Update path to your directory
+setwd(path)
+
+classes <- c("tashahhud", "takbir", "ruku", "sajdah", "aiyana") # Adjusted labels
+
+# Prepare directories
+for (class in classes) {
+  next_class_directory <- paste(path, class, sep = '/')
+  
+  # Create parent directories if they don't exist
+  if (!dir.exists(paste0(path, '/saved/'))) {
+    dir.create(paste0(path, '/saved/'))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class))) {
+    dir.create(paste0(path, '/saved/', class))
+  }
+  
+  if (!dir.exists(paste0(path, '/saved/', class, '/photos'))) {
+    dir.create(paste0(path, '/saved/', class, '/photos'))
+  }
+  
+  # Begin processing files
+  excel_files <- dir(paste0(next_class_directory))
+  index_to_save <- 1
+  
+  for (excel in excel_files) {
+    path_to_csv <- paste0(next_class_directory, '/', excel)
+    data <- read.csv(path_to_csv, header = TRUE, sep = ',')
+    print(paste("Data from", excel, ":"))
+    print(data)
+    data <-na.omit(data)
+    print(excel)
+    
+    # Number of digits for time omilliseconds
+    my_options <- options(digits.secs = 3)
+    
+    # Get first timestamp record to compare vs others
+    first_time <- data$loggingTime.txt.[1]
+    
+    # Returns the difference between first timestamp and the others timestamps
+    calculate_time_start <- function(time_string) {
+      time <- strptime(time_string, "%Y-%m-%d %H:%M:%OS")
+      return(as.numeric(difftime(time, first_time, units = "secs")))
+    }
+    
+    data$loggingTime.txt. <- sapply(data$loggingTime.txt., calculate_time_start)
+    
+    limit_val <- switch(class, 
+                        "tashahhud" = 1, # Update these values
+                        "takbir" = 1, # Update these values
+                        "ruku" = 1, # Update these values
+                        "sajdah" = 1, # Update these values
+                        "aiyana" = 1) # Update these values
+    
+    limit_axis <- switch(class, 
+                         "tashahhud" = 'motionUserAccelerationZ.G.', # Update these values
+                         "takbir" = 'motionUserAccelerationX.G.', # Update these values
+                         "ruku" = 'motionUserAccelerationZ.G.', # Update these values
+                         "sajdah" = 'motionUserAccelerationZ.G.', # Update these values
+                         "aiyana" = 'motionUserAccelerationX.G.') # Update these values
+    
+    temporary_df <- data.frame()
+    
+    for (i in 1:nrow(data)) {
+      if (i == 1 || (!is.na(data[i, limit_axis]) && data[i, limit_axis] >= limit_val)) {
+        temporary_df <- rbind(temporary_df, data[i,])
+        
+      } else {
+        write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+        
+        if(nrow(temporary_df) > 0){
+          my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+            geom_point() +
+            geom_line() +
+            ggtitle(paste(class, " - ", index_to_save))
+          
+          ggsave(filename = paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot, width = 7, height = 7)
+        }
+        
+        index_to_save <- index_to_save + 1
+        temporary_df <- data.frame()
+      }
+    }
+    print(head(temporary_df))
+    if (nrow(temporary_df) > 0) {
+      write.csv(temporary_df, paste0(path, "/saved/", class, "/", index_to_save, ".csv"), row.names = FALSE)
+      
+      my_plot <- ggplot(temporary_df, aes_string(x = "loggingTime.txt.", y = limit_axis)) +
+        geom_point() +
+        geom_line() +
+        ggtitle(paste(class, " - ", index_to_save))
+      
+      ggsave(filename = paste0(path, "/saved/", class, "/photos/", index_to_save, ".png"), plot = my_plot, width = 7, height = 7)
+    }else {
+      
+      print("No data to plot")
+    }
+  }
+}
