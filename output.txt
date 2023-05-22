@@ -1,0 +1,1000 @@
+Saving 4.65 x 4.36 in image
+[1] "Row  51 :  0.00486081838607788"
+[1] "Filtered out row  51"
+Saving 4.65 x 4.36 in image
+[1] "Row  52 :  0.00486081838607788"
+[1] "Filtered out row  52"
+Saving 4.65 x 4.36 in image
+[1] "Row  53 :  0.00032252073287963"
+[1] "Filtered out row  53"
+Saving 4.65 x 4.36 in image
+[1] "Row  54 :  0.00032252073287963"
+[1] "Filtered out row  54"
+Saving 4.65 x 4.36 in image
+[1] "Row  55 :  0.00187718868255615"
+[1] "Filtered out row  55"
+Saving 4.65 x 4.36 in image
+[1] "Row  56 :  0.00083810091018676"
+[1] "Filtered out row  56"
+Saving 4.65 x 4.36 in image
+[1] "Row  57 :  0.00083810091018676"
+[1] "Filtered out row  57"
+Saving 4.65 x 4.36 in image
+[1] "Row  58 :  0.00171601772308349"
+[1] "Filtered out row  58"
+Saving 4.65 x 4.36 in image
+[1] "Row  59 :  0.00171601772308349"
+[1] "Filtered out row  59"
+Saving 4.65 x 4.36 in image
+[1] "Row  60 :  0.00424456596374511"
+[1] "Filtered out row  60"
+Saving 4.65 x 4.36 in image
+[1] "Row  61 :  0.00424456596374511"
+[1] "Filtered out row  61"
+Saving 4.65 x 4.36 in image
+[1] "Row  62 :  0.00282692909240722"
+[1] "Filtered out row  62"
+Saving 4.65 x 4.36 in image
+[1] "Row  63 :  0.00282692909240722"
+[1] "Filtered out row  63"
+Saving 4.65 x 4.36 in image
+[1] "Row  64 :  0.00182139873504638"
+[1] "Filtered out row  64"
+Saving 4.65 x 4.36 in image
+[1] "Row  65 :  0.00377237796783447"
+[1] "Filtered out row  65"
+Saving 4.65 x 4.36 in image
+[1] "Row  66 :  0.00377237796783447"
+[1] "Filtered out row  66"
+Saving 4.65 x 4.36 in image
+[1] "Row  67 :  0.00273966789245605"
+[1] "Filtered out row  67"
+Saving 4.65 x 4.36 in image
+[1] "Row  68 :  0.00273966789245605"
+[1] "Filtered out row  68"
+Saving 4.65 x 4.36 in image
+[1] "Row  69 :  0.0033951997756958"
+[1] "Filtered out row  69"
+Saving 4.65 x 4.36 in image
+[1] "Row  70 :  0.0033951997756958"
+[1] "Filtered out row  70"
+Saving 4.65 x 4.36 in image
+[1] "Row  71 :  0.0130784511566162"
+[1] "Filtered out row  71"
+Saving 4.65 x 4.36 in image
+[1] "Row  72 :  -0.00451630353927612"
+[1] "Filtered out row  72"
+Saving 4.65 x 4.36 in image
+[1] "Row  73 :  -0.00451630353927612"
+[1] "Filtered out row  73"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_31_37.csv , number of rows: 17"
+[1] "Row  1 :  0.00060439109802246"
+[1] "Row  2 :  0.00060439109802246"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  -0.00399357080459594"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  -0.00399357080459594"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  0.00584933161735534"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  0.0006771981716156"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  0.0006771981716156"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  -0.00093138217926025"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  -0.00093138217926025"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  0.00865212082862854"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  0.00865212082862854"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.00331771373748779"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  0.00331771373748779"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  -0.00054377317428588"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  -0.00791597366333007"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  -0.00791597366333007"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  0.00879836082458496"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_31_40.csv , number of rows: 75"
+[1] "Row  1 :  -0.00258859992027282"
+[1] "Row  2 :  -0.00258859992027282"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  0.00394272804260253"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  0.00394272804260253"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  -0.00104570388793945"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  0.00244370102882385"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  0.00244370102882385"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  0.00224211812019348"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  0.00224211812019348"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  0.00130483508110046"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  0.00130483508110046"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.00084051489830017"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  0.00084051489830017"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  -0.00138235092163085"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  0.00189188122749328"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  0.00189188122749328"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  0.00071606040000915"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+[1] "Row  18 :  0.00071606040000915"
+[1] "Filtered out row  18"
+Saving 4.65 x 4.36 in image
+[1] "Row  19 :  0.00528717041015625"
+[1] "Filtered out row  19"
+Saving 4.65 x 4.36 in image
+[1] "Row  20 :  0.00528717041015625"
+[1] "Filtered out row  20"
+Saving 4.65 x 4.36 in image
+[1] "Row  21 :  0.00164684653282165"
+[1] "Filtered out row  21"
+Saving 4.65 x 4.36 in image
+[1] "Row  22 :  3.39150428771973e-05"
+[1] "Filtered out row  22"
+Saving 4.65 x 4.36 in image
+[1] "Row  23 :  3.39150428771973e-05"
+[1] "Filtered out row  23"
+Saving 4.65 x 4.36 in image
+[1] "Row  24 :  -4.57167625427246e-05"
+[1] "Filtered out row  24"
+Saving 4.65 x 4.36 in image
+[1] "Row  25 :  -4.57167625427246e-05"
+[1] "Filtered out row  25"
+Saving 4.65 x 4.36 in image
+[1] "Row  26 :  0.00133028626441955"
+[1] "Filtered out row  26"
+Saving 4.65 x 4.36 in image
+[1] "Row  27 :  0.00133028626441955"
+[1] "Filtered out row  27"
+Saving 4.65 x 4.36 in image
+[1] "Row  28 :  9.48309898376465e-05"
+[1] "Filtered out row  28"
+Saving 4.65 x 4.36 in image
+[1] "Row  29 :  9.48309898376465e-05"
+[1] "Filtered out row  29"
+Saving 4.65 x 4.36 in image
+[1] "Row  30 :  -0.00147154927253723"
+[1] "Filtered out row  30"
+Saving 4.65 x 4.36 in image
+[1] "Row  31 :  0.00138774514198303"
+[1] "Filtered out row  31"
+Saving 4.65 x 4.36 in image
+[1] "Row  32 :  0.00138774514198303"
+[1] "Filtered out row  32"
+Saving 4.65 x 4.36 in image
+[1] "Row  33 :  0.001246839761734"
+[1] "Filtered out row  33"
+Saving 4.65 x 4.36 in image
+[1] "Row  34 :  0.001246839761734"
+[1] "Filtered out row  34"
+Saving 4.65 x 4.36 in image
+[1] "Row  35 :  0.00142592191696167"
+[1] "Filtered out row  35"
+Saving 4.65 x 4.36 in image
+[1] "Row  36 :  0.00142592191696167"
+[1] "Filtered out row  36"
+Saving 4.65 x 4.36 in image
+[1] "Row  37 :  -0.00442281365394592"
+[1] "Filtered out row  37"
+Saving 4.65 x 4.36 in image
+[1] "Row  38 :  0.00388023257255554"
+[1] "Filtered out row  38"
+Saving 4.65 x 4.36 in image
+[1] "Row  39 :  0.00388023257255554"
+[1] "Filtered out row  39"
+Saving 4.65 x 4.36 in image
+[1] "Row  40 :  -0.00727096199989318"
+[1] "Filtered out row  40"
+Saving 4.65 x 4.36 in image
+[1] "Row  41 :  -0.00727096199989318"
+[1] "Filtered out row  41"
+Saving 4.65 x 4.36 in image
+[1] "Row  42 :  0.00182974338531494"
+[1] "Filtered out row  42"
+Saving 4.65 x 4.36 in image
+[1] "Row  43 :  0.00182974338531494"
+[1] "Filtered out row  43"
+Saving 4.65 x 4.36 in image
+[1] "Row  44 :  0.00463417172431945"
+[1] "Filtered out row  44"
+Saving 4.65 x 4.36 in image
+[1] "Row  45 :  0.00463417172431945"
+[1] "Filtered out row  45"
+Saving 4.65 x 4.36 in image
+[1] "Row  46 :  -0.00403892993927002"
+[1] "Filtered out row  46"
+Saving 4.65 x 4.36 in image
+[1] "Row  47 :  -0.00138482451438903"
+[1] "Filtered out row  47"
+Saving 4.65 x 4.36 in image
+[1] "Row  48 :  -0.00138482451438903"
+[1] "Filtered out row  48"
+Saving 4.65 x 4.36 in image
+[1] "Row  49 :  7.94529914855957e-05"
+[1] "Filtered out row  49"
+Saving 4.65 x 4.36 in image
+[1] "Row  50 :  7.94529914855957e-05"
+[1] "Filtered out row  50"
+Saving 4.65 x 4.36 in image
+[1] "Row  51 :  -0.00469645857810974"
+[1] "Filtered out row  51"
+Saving 4.65 x 4.36 in image
+[1] "Row  52 :  -0.00469645857810974"
+[1] "Filtered out row  52"
+Saving 4.65 x 4.36 in image
+[1] "Row  53 :  0.00264889001846313"
+[1] "Filtered out row  53"
+Saving 4.65 x 4.36 in image
+[1] "Row  54 :  0.00151348114013671"
+[1] "Filtered out row  54"
+Saving 4.65 x 4.36 in image
+[1] "Row  55 :  0.00151348114013671"
+[1] "Filtered out row  55"
+Saving 4.65 x 4.36 in image
+[1] "Row  56 :  -0.00117406249046325"
+[1] "Filtered out row  56"
+Saving 4.65 x 4.36 in image
+[1] "Row  57 :  -0.00117406249046325"
+[1] "Filtered out row  57"
+Saving 4.65 x 4.36 in image
+[1] "Row  58 :  0.00405624508857727"
+[1] "Filtered out row  58"
+Saving 4.65 x 4.36 in image
+[1] "Row  59 :  0.00405624508857727"
+[1] "Filtered out row  59"
+Saving 4.65 x 4.36 in image
+[1] "Row  60 :  -0.00048005580902099"
+[1] "Filtered out row  60"
+Saving 4.65 x 4.36 in image
+[1] "Row  61 :  -0.00048005580902099"
+[1] "Filtered out row  61"
+Saving 4.65 x 4.36 in image
+[1] "Row  62 :  0.00301414728164672"
+[1] "Filtered out row  62"
+Saving 4.65 x 4.36 in image
+[1] "Row  63 :  -0.00015544891357421"
+[1] "Filtered out row  63"
+Saving 4.65 x 4.36 in image
+[1] "Row  64 :  -0.00015544891357421"
+[1] "Filtered out row  64"
+Saving 4.65 x 4.36 in image
+[1] "Row  65 :  0.00286561250686645"
+[1] "Filtered out row  65"
+Saving 4.65 x 4.36 in image
+[1] "Row  66 :  0.00286561250686645"
+[1] "Filtered out row  66"
+Saving 4.65 x 4.36 in image
+[1] "Row  67 :  0.00135025382041931"
+[1] "Filtered out row  67"
+Saving 4.65 x 4.36 in image
+[1] "Row  68 :  0.00135025382041931"
+[1] "Filtered out row  68"
+Saving 4.65 x 4.36 in image
+[1] "Row  69 :  0.00401470065116882"
+[1] "Filtered out row  69"
+Saving 4.65 x 4.36 in image
+[1] "Row  70 :  0.00070324540138244"
+[1] "Filtered out row  70"
+Saving 4.65 x 4.36 in image
+[1] "Row  71 :  0.00070324540138244"
+[1] "Filtered out row  71"
+Saving 4.65 x 4.36 in image
+[1] "Row  72 :  -0.0153403282165527"
+[1] "Filtered out row  72"
+Saving 4.65 x 4.36 in image
+[1] "Row  73 :  -0.0153403282165527"
+[1] "Filtered out row  73"
+Saving 4.65 x 4.36 in image
+[1] "Row  74 :  -0.0140888392925263"
+[1] "Filtered out row  74"
+Saving 4.65 x 4.36 in image
+[1] "Row  75 :  -0.0140888392925263"
+[1] "Filtered out row  75"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_31_45.csv , number of rows: 61"
+[1] "Row  1 :  -9.05096530914307e-05"
+[1] "Row  2 :  -9.05096530914307e-05"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  -0.00535792112350463"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  0.00163337588310241"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  0.00163337588310241"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  0.00251102447509765"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  0.00251102447509765"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  -0.00735875964164733"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  -0.00735875964164733"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  -0.00024855136871337"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  0.00098145008087158"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.00098145008087158"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  0.00079092383384704"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  0.00079092383384704"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  -0.00377795100212097"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  -0.00377795100212097"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  -0.00681224465370178"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+[1] "Row  18 :  -0.00681224465370178"
+[1] "Filtered out row  18"
+Saving 4.65 x 4.36 in image
+[1] "Row  19 :  0.00386923551559448"
+[1] "Filtered out row  19"
+Saving 4.65 x 4.36 in image
+[1] "Row  20 :  0.00671151280403137"
+[1] "Filtered out row  20"
+Saving 4.65 x 4.36 in image
+[1] "Row  21 :  0.00671151280403137"
+[1] "Filtered out row  21"
+Saving 4.65 x 4.36 in image
+[1] "Row  22 :  0.001545250415802"
+[1] "Filtered out row  22"
+Saving 4.65 x 4.36 in image
+[1] "Row  23 :  0.001545250415802"
+[1] "Filtered out row  23"
+Saving 4.65 x 4.36 in image
+[1] "Row  24 :  -0.00115939974784851"
+[1] "Filtered out row  24"
+Saving 4.65 x 4.36 in image
+[1] "Row  25 :  -0.00115939974784851"
+[1] "Filtered out row  25"
+Saving 4.65 x 4.36 in image
+[1] "Row  26 :  0.00264802575111389"
+[1] "Filtered out row  26"
+Saving 4.65 x 4.36 in image
+[1] "Row  27 :  -0.00061187148094177"
+[1] "Filtered out row  27"
+Saving 4.65 x 4.36 in image
+[1] "Row  28 :  -0.00061187148094177"
+[1] "Filtered out row  28"
+Saving 4.65 x 4.36 in image
+[1] "Row  29 :  0.00315591692924499"
+[1] "Filtered out row  29"
+Saving 4.65 x 4.36 in image
+[1] "Row  30 :  0.00315591692924499"
+[1] "Filtered out row  30"
+Saving 4.65 x 4.36 in image
+[1] "Row  31 :  -0.00030562281608581"
+[1] "Filtered out row  31"
+Saving 4.65 x 4.36 in image
+[1] "Row  32 :  -0.00030562281608581"
+[1] "Filtered out row  32"
+Saving 4.65 x 4.36 in image
+[1] "Row  33 :  0.00274845957756042"
+[1] "Filtered out row  33"
+Saving 4.65 x 4.36 in image
+[1] "Row  34 :  0.00274845957756042"
+[1] "Filtered out row  34"
+Saving 4.65 x 4.36 in image
+[1] "Row  35 :  -0.00067707896232604"
+[1] "Filtered out row  35"
+Saving 4.65 x 4.36 in image
+[1] "Row  36 :  -0.00156912207603454"
+[1] "Filtered out row  36"
+Saving 4.65 x 4.36 in image
+[1] "Row  37 :  -0.00156912207603454"
+[1] "Filtered out row  37"
+Saving 4.65 x 4.36 in image
+[1] "Row  38 :  0.00215831398963928"
+[1] "Filtered out row  38"
+Saving 4.65 x 4.36 in image
+[1] "Row  39 :  0.00215831398963928"
+[1] "Filtered out row  39"
+Saving 4.65 x 4.36 in image
+[1] "Row  40 :  0.00115224719047546"
+[1] "Filtered out row  40"
+Saving 4.65 x 4.36 in image
+[1] "Row  41 :  0.00115224719047546"
+[1] "Filtered out row  41"
+Saving 4.65 x 4.36 in image
+[1] "Row  42 :  -0.00320121645927429"
+[1] "Filtered out row  42"
+Saving 4.65 x 4.36 in image
+[1] "Row  43 :  0.00291776657104492"
+[1] "Filtered out row  43"
+Saving 4.65 x 4.36 in image
+[1] "Row  44 :  0.00291776657104492"
+[1] "Filtered out row  44"
+Saving 4.65 x 4.36 in image
+[1] "Row  45 :  -0.00141224265098571"
+[1] "Filtered out row  45"
+Saving 4.65 x 4.36 in image
+[1] "Row  46 :  -0.00141224265098571"
+[1] "Filtered out row  46"
+Saving 4.65 x 4.36 in image
+[1] "Row  47 :  0.00185713171958923"
+[1] "Filtered out row  47"
+Saving 4.65 x 4.36 in image
+[1] "Row  48 :  0.00185713171958923"
+[1] "Filtered out row  48"
+Saving 4.65 x 4.36 in image
+[1] "Row  49 :  -0.00149562954902648"
+[1] "Filtered out row  49"
+Saving 4.65 x 4.36 in image
+[1] "Row  50 :  -0.00149562954902648"
+[1] "Filtered out row  50"
+Saving 4.65 x 4.36 in image
+[1] "Row  51 :  8.88705253601074e-05"
+[1] "Filtered out row  51"
+Saving 4.65 x 4.36 in image
+[1] "Row  52 :  -0.0027274489402771"
+[1] "Filtered out row  52"
+Saving 4.65 x 4.36 in image
+[1] "Row  53 :  -0.0027274489402771"
+[1] "Filtered out row  53"
+Saving 4.65 x 4.36 in image
+[1] "Row  54 :  -0.00066792964935302"
+[1] "Filtered out row  54"
+Saving 4.65 x 4.36 in image
+[1] "Row  55 :  -0.00066792964935302"
+[1] "Filtered out row  55"
+Saving 4.65 x 4.36 in image
+[1] "Row  56 :  -0.00522726774215698"
+[1] "Filtered out row  56"
+Saving 4.65 x 4.36 in image
+[1] "Row  57 :  -0.00522726774215698"
+[1] "Filtered out row  57"
+Saving 4.65 x 4.36 in image
+[1] "Row  58 :  0.00101691484451293"
+[1] "Filtered out row  58"
+Saving 4.65 x 4.36 in image
+[1] "Row  59 :  0.0017169713973999"
+[1] "Filtered out row  59"
+Saving 4.65 x 4.36 in image
+[1] "Row  60 :  0.0017169713973999"
+[1] "Filtered out row  60"
+Saving 4.65 x 4.36 in image
+[1] "Row  61 :  0.00732976198196411"
+[1] "Filtered out row  61"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_31_50.csv , number of rows: 54"
+[1] "Row  1 :  0.00280117988586425"
+[1] "Row  2 :  -0.00857597589492797"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  -0.00857597589492797"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  0.00193262100219726"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  0.00193262100219726"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  0.00140005350112915"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  -0.00846722722053527"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  -0.00846722722053527"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  -0.00406128168106079"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  -0.00406128168106079"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  0.00201010704040527"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.00201010704040527"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  0.00360730290412902"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  0.00360730290412902"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  -0.0105419754981995"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  0.00123700499534606"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  0.00123700499534606"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+[1] "Row  18 :  6.54160976409912e-05"
+[1] "Filtered out row  18"
+Saving 4.65 x 4.36 in image
+[1] "Row  19 :  6.54160976409912e-05"
+[1] "Filtered out row  19"
+Saving 4.65 x 4.36 in image
+[1] "Row  20 :  0.00021898746490478"
+[1] "Filtered out row  20"
+Saving 4.65 x 4.36 in image
+[1] "Row  21 :  0.00021898746490478"
+[1] "Filtered out row  21"
+Saving 4.65 x 4.36 in image
+[1] "Row  22 :  -0.00347957015037536"
+[1] "Filtered out row  22"
+Saving 4.65 x 4.36 in image
+[1] "Row  23 :  -0.00419318675994873"
+[1] "Filtered out row  23"
+Saving 4.65 x 4.36 in image
+[1] "Row  24 :  -0.00419318675994873"
+[1] "Filtered out row  24"
+Saving 4.65 x 4.36 in image
+[1] "Row  25 :  -0.00783154368400573"
+[1] "Filtered out row  25"
+Saving 4.65 x 4.36 in image
+[1] "Row  26 :  -0.00783154368400573"
+[1] "Filtered out row  26"
+Saving 4.65 x 4.36 in image
+[1] "Row  27 :  0.00517386198043823"
+[1] "Filtered out row  27"
+Saving 4.65 x 4.36 in image
+[1] "Row  28 :  0.00517386198043823"
+[1] "Filtered out row  28"
+Saving 4.65 x 4.36 in image
+[1] "Row  29 :  -0.00226101279258728"
+[1] "Filtered out row  29"
+Saving 4.65 x 4.36 in image
+[1] "Row  30 :  -0.00226101279258728"
+[1] "Filtered out row  30"
+Saving 4.65 x 4.36 in image
+[1] "Row  31 :  0.00420013070106506"
+[1] "Filtered out row  31"
+Saving 4.65 x 4.36 in image
+[1] "Row  32 :  -0.00340312719345092"
+[1] "Filtered out row  32"
+Saving 4.65 x 4.36 in image
+[1] "Row  33 :  -0.00340312719345092"
+[1] "Filtered out row  33"
+Saving 4.65 x 4.36 in image
+[1] "Row  34 :  0.00959572196006774"
+[1] "Filtered out row  34"
+Saving 4.65 x 4.36 in image
+[1] "Row  35 :  0.00959572196006774"
+[1] "Filtered out row  35"
+Saving 4.65 x 4.36 in image
+[1] "Row  36 :  -0.00223314762115478"
+[1] "Filtered out row  36"
+Saving 4.65 x 4.36 in image
+[1] "Row  37 :  -0.00223314762115478"
+[1] "Filtered out row  37"
+Saving 4.65 x 4.36 in image
+[1] "Row  38 :  -0.00178596377372741"
+[1] "Filtered out row  38"
+Saving 4.65 x 4.36 in image
+[1] "Row  39 :  -0.0041552186012268"
+[1] "Filtered out row  39"
+Saving 4.65 x 4.36 in image
+[1] "Row  40 :  -0.0041552186012268"
+[1] "Filtered out row  40"
+Saving 4.65 x 4.36 in image
+[1] "Row  41 :  0.00513321161270141"
+[1] "Filtered out row  41"
+Saving 4.65 x 4.36 in image
+[1] "Row  42 :  0.00513321161270141"
+[1] "Filtered out row  42"
+Saving 4.65 x 4.36 in image
+[1] "Row  43 :  -0.00781863927841186"
+[1] "Filtered out row  43"
+Saving 4.65 x 4.36 in image
+[1] "Row  44 :  -0.00781863927841186"
+[1] "Filtered out row  44"
+Saving 4.65 x 4.36 in image
+[1] "Row  45 :  -0.00318345427513122"
+[1] "Filtered out row  45"
+Saving 4.65 x 4.36 in image
+[1] "Row  46 :  -0.00318345427513122"
+[1] "Filtered out row  46"
+Saving 4.65 x 4.36 in image
+[1] "Row  47 :  -0.00076133012771606"
+[1] "Filtered out row  47"
+Saving 4.65 x 4.36 in image
+[1] "Row  48 :  0.00348663330078125"
+[1] "Filtered out row  48"
+Saving 4.65 x 4.36 in image
+[1] "Row  49 :  0.00348663330078125"
+[1] "Filtered out row  49"
+Saving 4.65 x 4.36 in image
+[1] "Row  50 :  -0.00483849644660949"
+[1] "Filtered out row  50"
+Saving 4.65 x 4.36 in image
+[1] "Row  51 :  -0.00483849644660949"
+[1] "Filtered out row  51"
+Saving 4.65 x 4.36 in image
+[1] "Row  52 :  -0.0151868164539337"
+[1] "Filtered out row  52"
+Saving 4.65 x 4.36 in image
+[1] "Row  53 :  -0.0151868164539337"
+[1] "Filtered out row  53"
+Saving 4.65 x 4.36 in image
+[1] "Row  54 :  -0.0174049437046051"
+[1] "Filtered out row  54"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_31_55.csv , number of rows: 59"
+[1] "Row  1 :  -0.00130969285964965"
+[1] "Row  2 :  -0.00127860903739929"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  -0.00127860903739929"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  0.0103033185005188"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  0.0103033185005188"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  -0.00289684534072876"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  -0.00289684534072876"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  -0.00321558117866516"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  0.00679486989974975"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  0.00679486989974975"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  0.00092077255249023"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.00092077255249023"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  -0.00182411074638366"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  -0.00182411074638366"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  -0.00125789642333984"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  -0.00125789642333984"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  -0.00076711177825927"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+[1] "Row  18 :  0.00269252061843872"
+[1] "Filtered out row  18"
+Saving 4.65 x 4.36 in image
+[1] "Row  19 :  0.00269252061843872"
+[1] "Filtered out row  19"
+Saving 4.65 x 4.36 in image
+[1] "Row  20 :  -0.00359886884689331"
+[1] "Filtered out row  20"
+Saving 4.65 x 4.36 in image
+[1] "Row  21 :  -0.00359886884689331"
+[1] "Filtered out row  21"
+Saving 4.65 x 4.36 in image
+[1] "Row  22 :  -0.00185757875442504"
+[1] "Filtered out row  22"
+Saving 4.65 x 4.36 in image
+[1] "Row  23 :  -0.00185757875442504"
+[1] "Filtered out row  23"
+Saving 4.65 x 4.36 in image
+[1] "Row  24 :  0.00119543075561523"
+[1] "Filtered out row  24"
+Saving 4.65 x 4.36 in image
+[1] "Row  25 :  0.00613918900489807"
+[1] "Filtered out row  25"
+Saving 4.65 x 4.36 in image
+[1] "Row  26 :  0.00613918900489807"
+[1] "Filtered out row  26"
+Saving 4.65 x 4.36 in image
+[1] "Row  27 :  0.00036153197288513"
+[1] "Filtered out row  27"
+Saving 4.65 x 4.36 in image
+[1] "Row  28 :  0.00036153197288513"
+[1] "Filtered out row  28"
+Saving 4.65 x 4.36 in image
+[1] "Row  29 :  0.00279295444488525"
+[1] "Filtered out row  29"
+Saving 4.65 x 4.36 in image
+[1] "Row  30 :  0.00279295444488525"
+[1] "Filtered out row  30"
+Saving 4.65 x 4.36 in image
+[1] "Row  31 :  0.00189763307571411"
+[1] "Filtered out row  31"
+Saving 4.65 x 4.36 in image
+[1] "Row  32 :  0.00189763307571411"
+[1] "Filtered out row  32"
+Saving 4.65 x 4.36 in image
+[1] "Row  33 :  0.00301462411880493"
+[1] "Filtered out row  33"
+Saving 4.65 x 4.36 in image
+[1] "Row  34 :  -0.00384294986724853"
+[1] "Filtered out row  34"
+Saving 4.65 x 4.36 in image
+[1] "Row  35 :  -0.00384294986724853"
+[1] "Filtered out row  35"
+Saving 4.65 x 4.36 in image
+[1] "Row  36 :  0.00221964716911315"
+[1] "Filtered out row  36"
+Saving 4.65 x 4.36 in image
+[1] "Row  37 :  0.00221964716911315"
+[1] "Filtered out row  37"
+Saving 4.65 x 4.36 in image
+[1] "Row  38 :  -0.00499755144119262"
+[1] "Filtered out row  38"
+Saving 4.65 x 4.36 in image
+[1] "Row  39 :  -0.00499755144119262"
+[1] "Filtered out row  39"
+Saving 4.65 x 4.36 in image
+[1] "Row  40 :  0.00192612409591674"
+[1] "Filtered out row  40"
+Saving 4.65 x 4.36 in image
+[1] "Row  41 :  -0.00163453817367553"
+[1] "Filtered out row  41"
+Saving 4.65 x 4.36 in image
+[1] "Row  42 :  -0.00163453817367553"
+[1] "Filtered out row  42"
+Saving 4.65 x 4.36 in image
+[1] "Row  43 :  -0.00228142738342285"
+[1] "Filtered out row  43"
+Saving 4.65 x 4.36 in image
+[1] "Row  44 :  -0.00228142738342285"
+[1] "Filtered out row  44"
+Saving 4.65 x 4.36 in image
+[1] "Row  45 :  -0.00190824270248413"
+[1] "Filtered out row  45"
+Saving 4.65 x 4.36 in image
+[1] "Row  46 :  -0.00190824270248413"
+[1] "Filtered out row  46"
+Saving 4.65 x 4.36 in image
+[1] "Row  47 :  0.00705897808074951"
+[1] "Filtered out row  47"
+Saving 4.65 x 4.36 in image
+[1] "Row  48 :  0.00705897808074951"
+[1] "Filtered out row  48"
+Saving 4.65 x 4.36 in image
+[1] "Row  49 :  -0.00431296229362487"
+[1] "Filtered out row  49"
+Saving 4.65 x 4.36 in image
+[1] "Row  50 :  -0.00117793679237365"
+[1] "Filtered out row  50"
+Saving 4.65 x 4.36 in image
+[1] "Row  51 :  -0.00117793679237365"
+[1] "Filtered out row  51"
+Saving 4.65 x 4.36 in image
+[1] "Row  52 :  0.00370955467224121"
+[1] "Filtered out row  52"
+Saving 4.65 x 4.36 in image
+[1] "Row  53 :  0.00370955467224121"
+[1] "Filtered out row  53"
+Saving 4.65 x 4.36 in image
+[1] "Row  54 :  -0.0010121464729309"
+[1] "Filtered out row  54"
+Saving 4.65 x 4.36 in image
+[1] "Row  55 :  -0.0010121464729309"
+[1] "Filtered out row  55"
+Saving 4.65 x 4.36 in image
+[1] "Row  56 :  0.0136292278766632"
+[1] "Filtered out row  56"
+Saving 4.65 x 4.36 in image
+[1] "Row  57 :  -0.00807499885559082"
+[1] "Filtered out row  57"
+Saving 4.65 x 4.36 in image
+[1] "Row  58 :  -0.00807499885559082"
+[1] "Filtered out row  58"
+Saving 4.65 x 4.36 in image
+[1] "Row  59 :  -0.00331109762191772"
+[1] "Filtered out row  59"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+NULL
+[1] "Processing file: stream Apple Watch 230508 00_32_00.csv , number of rows: 39"
+[1] "Row  1 :  0.00605258345603942"
+[1] "Row  2 :  0.00605258345603942"
+[1] "Filtered out row  2"
+Saving 4.65 x 4.36 in image
+[1] "Row  3 :  -0.00119715929031372"
+[1] "Filtered out row  3"
+Saving 4.65 x 4.36 in image
+[1] "Row  4 :  -0.00119715929031372"
+[1] "Filtered out row  4"
+Saving 4.65 x 4.36 in image
+[1] "Row  5 :  -0.00279819965362548"
+[1] "Filtered out row  5"
+Saving 4.65 x 4.36 in image
+[1] "Row  6 :  -0.00279819965362548"
+[1] "Filtered out row  6"
+Saving 4.65 x 4.36 in image
+[1] "Row  7 :  0.00277051329612731"
+[1] "Filtered out row  7"
+Saving 4.65 x 4.36 in image
+[1] "Row  8 :  0.00277051329612731"
+[1] "Filtered out row  8"
+Saving 4.65 x 4.36 in image
+[1] "Row  9 :  0.00562337040901184"
+[1] "Filtered out row  9"
+Saving 4.65 x 4.36 in image
+[1] "Row  10 :  -0.00080525875091552"
+[1] "Filtered out row  10"
+Saving 4.65 x 4.36 in image
+[1] "Row  11 :  -0.00080525875091552"
+[1] "Filtered out row  11"
+Saving 4.65 x 4.36 in image
+[1] "Row  12 :  0.0124356150627136"
+[1] "Filtered out row  12"
+Saving 4.65 x 4.36 in image
+[1] "Row  13 :  0.0124356150627136"
+[1] "Filtered out row  13"
+Saving 4.65 x 4.36 in image
+[1] "Row  14 :  0.00398054718971252"
+[1] "Filtered out row  14"
+Saving 4.65 x 4.36 in image
+[1] "Row  15 :  0.00398054718971252"
+[1] "Filtered out row  15"
+Saving 4.65 x 4.36 in image
+[1] "Row  16 :  0.00748080015182495"
+[1] "Filtered out row  16"
+Saving 4.65 x 4.36 in image
+[1] "Row  17 :  0.00105148553848266"
+[1] "Filtered out row  17"
+Saving 4.65 x 4.36 in image
+[1] "Row  18 :  0.00105148553848266"
+[1] "Filtered out row  18"
+Saving 4.65 x 4.36 in image
+[1] "Row  19 :  0.00467315316200256"
+[1] "Filtered out row  19"
+Saving 4.65 x 4.36 in image
+[1] "Row  20 :  0.00467315316200256"
+[1] "Filtered out row  20"
+Saving 4.65 x 4.36 in image
+[1] "Row  21 :  0.00076133012771606"
+[1] "Filtered out row  21"
+Saving 4.65 x 4.36 in image
+[1] "Row  22 :  0.00076133012771606"
+[1] "Filtered out row  22"
+Saving 4.65 x 4.36 in image
+[1] "Row  23 :  0.00355756282806396"
+[1] "Filtered out row  23"
+Saving 4.65 x 4.36 in image
+[1] "Row  24 :  0.00355756282806396"
+[1] "Filtered out row  24"
+Saving 4.65 x 4.36 in image
+[1] "Row  25 :  0.00750470161437988"
+[1] "Filtered out row  25"
+Saving 4.65 x 4.36 in image
+[1] "Row  26 :  0.00230449438095092"
+[1] "Filtered out row  26"
+Saving 4.65 x 4.36 in image
+[1] "Row  27 :  0.00230449438095092"
+[1] "Filtered out row  27"
+Saving 4.65 x 4.36 in image
+[1] "Row  28 :  0.00347596406936645"
+[1] "Filtered out row  28"
+Saving 4.65 x 4.36 in image
+[1] "Row  29 :  0.00347596406936645"
+[1] "Filtered out row  29"
+Saving 4.65 x 4.36 in image
+[1] "Row  30 :  0.00179791450500488"
+[1] "Filtered out row  30"
+Saving 4.65 x 4.36 in image
+[1] "Row  31 :  0.00179791450500488"
+[1] "Filtered out row  31"
+Saving 4.65 x 4.36 in image
+[1] "Row  32 :  0.00140520930290222"
+[1] "Filtered out row  32"
+Saving 4.65 x 4.36 in image
+[1] "Row  33 :  -0.00091949105262756"
+[1] "Filtered out row  33"
+Saving 4.65 x 4.36 in image
+[1] "Row  34 :  -0.00091949105262756"
+[1] "Filtered out row  34"
+Saving 4.65 x 4.36 in image
+[1] "Row  35 :  0.0652318000793457"
+[1] "Filtered out row  35"
+Saving 4.65 x 4.36 in image
+[1] "Row  36 :  0.0652318000793457"
+[1] "Filtered out row  36"
+Saving 4.65 x 4.36 in image
+[1] "Row  37 :  -0.00543099641799926"
+[1] "Filtered out row  37"
+Saving 4.65 x 4.36 in image
+[1] "Row  38 :  -0.00543099641799926"
+[1] "Filtered out row  38"
+Saving 4.65 x 4.36 in image
+[1] "Row  39 :  -0.00878214836120605"
+[1] "Filtered out row  39"
+Saving 4.65 x 4.36 in image
+data frame with 0 columns and 0 rows
+[1] "No data to plot"
+There were 27 warnings (use warnings() to see them)
